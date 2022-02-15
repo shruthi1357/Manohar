@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+
+
+
+
+</style>
+
+<style> 
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+#example3 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+}
+</style>
+
+
+<style>
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+
+.btn-group1 button {
+  background-color: #fefbd8; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+</style>
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+
+
+</head>
+<body>
+
+
+<b><h>Selenium Sudhakar<h1><b>
+
+<b><h>Selenium Sudhakar<h1><b>
+
+<a href="D:\FlexStart4\FAQS_Data\Selenium\Selenium.html" target="_blank">Selenium</a>
+<a href="D:\FlexStart4\FAQS_Data\Java\Java.html" target="_blank">Java</a>
+<a href="D:\FlexStart4\FAQS_Data\SQL\SQL.html" target="_blank">SQL</a>
+<a href="D:\FlexStart4\FAQS_Data\Agile_Scrum\Agile.html" target="_blank">Agile_Scrum</a>
+<a href="D:\FlexStart4\FAQS_Data\Cucumber\Cucumber.html" target="_blank">CUCUMBER</a>
+<a href="D:\FlexStart4\FAQS_Data\GuideWIre\Guidewire.html" target="_blank">GuideWIre</a>
+<a href="D:\FlexStart4\FAQS_Data\Testing\Testing.html" target="_blank">Testing</a>
+<a href="D:\FlexStart4\FAQS_Data\Profiles\Profiles.html" target="_blank">Profiles</a>
+<a href="D:\FlexStart4\FAQS_Data\API_Testing\API_Testing.html" target="_blank">API_Testing</a>
+<a href="D:\FlexStart4\FAQS_Data\HR Round\HR_Round.html" target="_blank">HR_Round</a>
+
+
+<div class="btn-group" style="width:100%">
+<button style="width:25%"   onclick="openCity(event, 'Leaving')" >Why are you Leaving your current Job?</button>
+  <button style="width:25%" onclick="openCity(event, 'Career_Growsth')">Why did you leave your previous job?</button>
+  <button style="width:25%" onclick="openCity(event, 'About_Company')">What do you know about our company?</button>
+   <button style="width:25%"   onclick="openCity(event, 'SQL4')">Tell me about this gap in your resume</button>
+</div>
+
+
+<div class="btn-group1" style="width:100%">
+  <button style="width:25%" onclick="openCity(event, 'Role')">Why did you decide to apply to this role?</button>
+  <button style="width:25%" onclick="openCity(event, 'Role')">How you fit this role ?</button>
+   <button style="width:25%"   onclick="openCity(event, 'Profile_Summary1')">Tell me about your experience</button>
+   <button style="width:25%" onclick="openCity(event, 'Role')" >What did you like most about the job description?</button>
+</div>
+
+<div class="btn-group" style="width:100%">
+<button style="width:25%"   onclick="openCity(event, 'Challanges12')" >What is the difficult time/challanges faced ? </button>
+  <button style="width:25%" onclick="openCity(event, 'ST_WK')">Your Strengths and Weakness</button>
+  <button style="width:25%" onclick="openCity(event, 'see')">Where do you want to to see your self after 4 years ?</button>
+   <button style="width:25%"   onclick="openCity(event, 'Hobbies')">Hobbies</button>
+ 
+</div>
+
+
+<div class="btn-group1" style="width:100%">
+<button style="width:25%"   onclick="openCity(event, 'PF')" >Do you have PF? </button>
+  <button style="width:25%" onclick="openCity(event, 'Form16')">Do you have form 16?</button>
+  <button style="width:25%" onclick="openCity(event, 'SQL8')">Gross Pay & Net Pay - Other Componenst</button>
+     <button style="width:25%" onclick="openCity(event, 'SQL10')" >What is your current CTC , is this with variabe pay?</button>
+</div>
+
+<div class="btn-group" style="width:100%">
+ <button style="width:25%" onclick="openCity(event, 'SQL5')" >What are your Salary Expectations</button>
+ <button style="width:25%"   onclick="openCity(event, 'SQL6')" >Do you have any questions</button>
+ <button style="width:25%" onclick="openCity(event, 'Relief')" >How do you manage stress and work balance ?</button>
+<button style="width:25%"   onclick="openCity(event, 'Work_activities')">HOw you will get your work & day to work actiovities?</button>
+</div>
+
+
+<div class="btn-group1" style="width:100%">
+ <button style="width:25%" onclick="openCity(event, 'SQL5')" >where Your svhooling , college ? </button>
+ <button style="width:25%"   onclick="openCity(event, 'SQL6')" >Any gaps in your education?</button>
+ <button style="width:25%" onclick="openCity(event, 'IT_Software')" >How do you came into IT Software Testing?</button>
+<button style="width:25%"   onclick="openCity(event, 'Shifts')">Shifts & if required to stretch?</button>
+</div>
+
+
+
+<div id="PF" class="tabcontent">
+<br><br><br><br><br><br><br><br><br>
+<p style="color:blue;" >I don't have PF , Salary will credited directly Without PF only</p>
+<p>Provident Fund (PF) is actually a government-managed retirement savings scheme, as this enables the employees to
+ contribute a part of their savings every month towards their retirement. Each year the PF accounting is done from March to February.
+ This period is called as PF Year. This is only applicable to PF while, the other modules remain unaffected.</p>
+ <a href="https://www.vskills.in/interview-questions/hr-compliance-interview-questions" target="_blank"  >About PF </a>
+</div>
+
+
+<div id="Leaving" class="tabcontent">
+<br><br><br><br><br><br>
+<p style="color:blue;" >I am almost with the same company from past 4 years , So I am seriously looking for change and my career growth as well  </p>
+ <a href="https://www.vskills.in/interview-questions/hr-compliance-interview-questions" target="_blank"  >About PF </a>
+</div>
+
+
+<div id="ST_WK" class="tabcontent">
+<img src="Strengths.JPG" alt="Get vs Naviagte"><hr>
+<img src="WeakNess.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="Form16" class="tabcontent">
+<img src="Form16.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="Hobbies" class="tabcontent">
+<img src="Hobbies.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="Relief" class="tabcontent">
+<img src="Relief.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+
+<div id="see" class="tabcontent">
+<img src="see.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="IT_Software" class="tabcontent">
+<img src="IT_Software.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="Shifts" class="tabcontent">
+<img src="Shifts.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="About_Company" class="tabcontent">
+<img src="About_Company.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="Career_Growsth" class="tabcontent">
+<img src="Career_Growsth.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+
+<div id="Role" class="tabcontent">
+<img src="Role.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="Profile_Summary1" class="tabcontent">
+<img src="Profile_Summary1.JPG" alt="Get vs Naviagte"><hr>
+<img src="Profile_Summary2.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="Challanges12" class="tabcontent">
+<img src="Challanges12.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+<div id="Work_activities" class="tabcontent">
+<img src="Profile_Summary2.JPG" alt="Get vs Naviagte"><hr>
+</div>
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
